@@ -1,0 +1,15 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore hidden files and directories
+.*
+
+# Ignore specific build artifacts
+build/
+dist/
+
+# Don't ignore the Dockerfile itself
+!Dockerfile
